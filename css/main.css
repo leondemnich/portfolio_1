@@ -1,0 +1,269 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #304041;
+    letter-spacing: 0.05em;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+li, ul {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+/* первая секция */
+
+header {
+    background: linear-gradient(180deg, rgba(121, 181, 196, 0) 1.39%, rgba(19, 75, 85, 0.26) 44.44%), url(../img/Rectangle\ 1.png) no-repeat center top / cover ;
+    text-align: center;
+    padding: 90px 0 80px;
+    color: #fff;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+
+}
+
+a.logo {
+    display: inline-block;
+}
+
+.offer {
+    margin-top: 201px;
+}
+
+.offer__span {
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 1.125em;
+    letter-spacing: 0.05em;
+    color: #000;
+    background: #fff;
+    padding: 8px 17px;
+    border-radius: 78px;
+    text-transform: uppercase;
+}
+
+.offer__title {
+    font-size: 60px;
+    letter-spacing: 0.145em;
+    margin: 24px 0 ;
+}
+
+.offer__text {
+    font-size: 20px;
+    letter-spacing: 0.05em;
+    line-height: 1.5em;
+    margin-bottom: 24px;
+} 
+
+.btn {
+    text-decoration: none;
+    
+}
+
+
+.offer__btn {
+    color: #fff;
+    padding: 18px 0;
+    background: #23CF7D;
+    border-radius: 119px;
+    font-weight: 800;
+    font-size: 16px;
+    display: block;
+    width: 247px;
+    margin: 0 auto; 
+    transition: background, transition, 0.5s ease;
+} 
+
+.offer__btn:hover {
+    background: #156b42;
+    transition: all 0.5s ease;
+}
+
+.arrow-down {
+    background: url(../img/arrow-down.svg);
+    width: 18px;
+    height: 27px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 217px;
+    opacity: 0.5;
+    transition: opacity, 0.5s ease;
+}
+
+.arrow-down:hover {
+    opacity: 1;
+}
+
+/* Доступные маршруты */
+
+.routes {
+    padding-top: 146px;
+    padding-bottom: 146px;
+}
+
+.section__title {
+    font-size: 30px;
+    line-height: 2.3em;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.destinations {
+   background: #EAF4F7;
+   margin-bottom: 108px;
+   transition: all 0.5s ease;
+   display: flex;
+   justify-content: space-between;
+}
+
+.destinations:hover {
+    filter: drop-shadow(0px 25px 70px rgba(4, 43, 55, 0.28));
+}
+
+.destinations__text {
+    width: 672px;
+    padding: 112px 72px;
+}
+
+.destinations__span {
+    color: #789AA0;
+    text-transform: uppercase;
+    line-height: 1.125em;
+    padding: 112px 0 20px 0;
+}
+
+.destinations__content {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 1.8em;
+    padding-bottom: 40px;
+}
+
+.destinations__histori {
+    line-height: 1.45em;
+    padding: 0 78px 49px 0;
+}
+
+.arrow__next {
+    background: url(../img/arrow-next.svg);
+    width: 68px;
+    height: 17px;
+    display: block;
+    opacity: 0.5;
+    transition: opacity, 0.5s ease;
+}
+
+.arrow__next:hover {
+    opacity: 1;
+}
+
+.destinations__photo img {
+    height: 100%;
+    min-width: 500px;
+}
+
+.destinations__btn {
+    color: #23CF7D;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 1.25em;
+    padding: 18px 0;
+    text-align: center;
+    border: 1px solid #23CF7D;
+    border-radius: 94px;
+    display: block;
+    width: 332px;
+    margin: 0 auto; 
+    transition: color, background, border, 0.5s ease;
+}
+
+.destinations__btn:hover {
+    color: #fff;
+    background:#23CF7D ;
+    border: 1px solid #23CF7D;
+}
+
+.guide {
+    
+}
+
+.Opportunities__title {
+    font-size: 30px;
+    line-height: 2.3em;
+    text-align: center;
+    margin-bottom: 93px;
+}
+
+.Opportunities__content {
+    background: url(../img/photo-prague.jpg) no-repeat right center / 50%;
+    padding: 137px 0;
+}
+
+.Opportunities__list {
+    width: 407px;
+}
+
+.Opportunities__item {
+    font-size: 16px;
+    line-height: 1.25em;
+    
+    margin-bottom: 83px;  
+}
+
+.Opportunities__item:last-child {
+    margin-bottom: 0px;
+}
+
+.Opportunities__item::before {
+    content: "";
+    display: block;
+    width: 64px;
+    height: 7px;
+    margin-bottom: 15px;
+    background: #4EB1B6;
+    border-radius: 23px;
+}
+
+.footer {
+    padding:147px 0 165px;
+}
+
+.basement__content {
+    display: flex;
+}
+
+.footer__text {
+    font-size: 14px;
+    line-height: 1.05em;
+    color: #5C7677;
+    margin-right: 60px;
+}
